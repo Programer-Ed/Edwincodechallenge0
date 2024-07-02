@@ -24,6 +24,6 @@ Tax,
 Nssf Deductions for Tier I and II represented as nssf deductions1 and nssf deductions2
 Nhif deductions,
 Net Salary.
+
 Run it in the vs code terminal or website console
-
-
+grossSalary = basicSalary + benefits;
