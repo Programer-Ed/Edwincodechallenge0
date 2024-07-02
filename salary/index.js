@@ -25,6 +25,7 @@
               0.35 * (paye - 800000)
          }
         }
+
      const calcNhif = function nhif(nhifRates){
         //calculates NHIF according to the monthly rate
      if(nhifRates>=100000){
@@ -63,6 +64,7 @@
          return nhifRates - 150
      }
      }   
+
      let perRelief = 2400;//personal relief given
      let nssf1 = (7000 * 0.06);//nssf1 represents Tier I
      let nssf2 = (36000-7000)* 0.06;//nssf2 represents Tier II
@@ -75,7 +77,8 @@
      let netSalary = grossSalary - tax -nhif - nssf1 - nssf2 - housingLevy + insRelief + perRelief + housRelief;
      return {grossSalary, tax, netSalary, nhif, nssf1, nssf2};//will display
      }
-     const basicSalary = 100000;
+
+     const basicSalary = 400000;
      const benefits = 500000;
      const salary = calculateNetSalary(basicSalary,benefits)
      console.log("Gross Salary:", salary.grossSalary);
@@ -84,4 +87,3 @@
      console.log("Nssf Deductions2:", salary.nssf2);
      console.log("Nhif Deductions:", salary.nhif);
      console.log("Net Salary:", salary.netSalary);
-

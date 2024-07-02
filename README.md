@@ -24,8 +24,6 @@ Tax,
 Nssf Deductions for Tier I and II represented as nssf deductions1 and nssf deductions2
 Nhif deductions,
 Net Salary.
-Run it in the vs code terminal 
+Run it in the vs code terminal or website console
 
 
-# NOTE 
-For Speed Detector and Student Grade Calculator run it in the website it brought up a module error didn't know what to do at that time so i put it in the website but for Net salary ran it in the vscode.
